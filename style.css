@@ -82,21 +82,13 @@ table {
   width: 100%;
 }
 
-.menu .left {
-	width: 25%;
-	background-color: #121315;
-  height:400px;
-  float:left;
-}
 
-.menu .middle {
-	width: 50%;
+.sectAbout {
+	width: 100%;
 	height: 400px;
-	float:left;
-	text-align: left;
 }
 
-.menu .middle h3 {
+.sectAbout h3 {
 	text-align: center;
   color: white;
 	background-color: #121315;
@@ -107,7 +99,7 @@ table {
   font-stretch: ultra-condensed;
 }
 
-.menu .middle p {
+.sectAbout p {
 	text-align: center;
 	color: white;
 	background-color: #121315;
@@ -120,9 +112,26 @@ table {
 	line-height: 2em;
 }
 
-.menu .right {
-	width: 25%;
+.sectMenu h3 {
+	text-align: center;
+  color: white;
 	background-color: #121315;
-  height:1800px;
-  float:left;
+	font-size: 60px;
+  font-weight: bold;
+	padding-top: 60px;
+	font-family: 'Helvetica Narrow', sans-serif;
+  font-stretch: ultra-condensed;
+}
+
+.sectMenu p {
+	text-align: center;
+	color: white;
+	background-color: #121315;
+	font-size: 20px;
+	padding-top: 40px;
+	padding-bottom: 1200px;
+	font-stretch: ultra-condensed;
+	font-style: italic;
+	font-family: 'Arial';
+	line-height: 2em;
 }
